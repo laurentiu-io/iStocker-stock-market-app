@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logreg"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Login/Register" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_markets"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Markets" />
+        <item
+            android:id="@+id/nav_portfolio"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Portfolio" />
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Resources" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_invite"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite Friends" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate App" />
+        </menu>
+    </item>
+
+</menu>

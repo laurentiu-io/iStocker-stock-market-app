@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navBarBlue"
+    android:orientation="vertical"
+    android:id="@+id/documentaries_fragment"
+    tools:context="uk.co.novoapps.istocker.DocumentariesFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@id/android:list"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:divider="@color/navBarBlue"
+        android:dividerHeight="2dp"
+        android:layout_marginBottom="15dp">
+
+    </ListView>
+
+</FrameLayout>

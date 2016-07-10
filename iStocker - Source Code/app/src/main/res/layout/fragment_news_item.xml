@@ -1,0 +1,91 @@
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/news_item_bg1"
+    android:background="@color/row_blue"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.co.novoapps.istocker.NewsItem">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_item_bg"
+            android:background="@color/row_blue"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Two former Houston oil executives plead guilty in kickback scheme"
+                android:id="@+id/headline"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="@color/white"
+                android:layout_marginTop="65dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="iStocker.com | "
+                android:id="@+id/news_name"
+                android:layout_gravity="left|top"
+                android:textColor="#9c9b9b"
+                android:layout_below="@id/headline"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Feb 26, 2016 21:30"
+                android:id="@+id/news_date"
+                android:layout_gravity="left|top"
+                android:textColor="#9c9b9b"
+                android:layout_below="@id/headline"
+                android:layout_toRightOf="@id/news_name"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="0dp" />
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="200dp"
+                android:id="@+id/newsItem_image"
+                android:layout_below="@+id/news_date"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@color/line_blue"
+                android:contentDescription="@string/news_item_image" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textFull"
+                android:layout_below="@+id/newsItem_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/white"
+                android:textAlignment="textStart"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

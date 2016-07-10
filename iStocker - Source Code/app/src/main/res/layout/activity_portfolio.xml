@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="uk.co.novoapps.istocker.PortfolioActivity"
+    android:background="@color/navBarBlue"
+    android:id="@+id/portfolio" >
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personalized Portfolio"
+        android:id="@+id/textView12"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="Logout"
+        android:id="@+id/logoutDB"
+        android:textAllCaps="false"
+        android:textColor="@color/selected_blue"
+        android:background="@drawable/signup_button"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/tableLayout2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="User Name: "
+                android:id="@+id/textView18"
+                android:layout_column="0"
+                android:textColor="#7f94a5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="user1"
+                android:id="@+id/pName"
+                android:layout_column="1"
+                android:textColor="@color/green"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/android:list2"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:divider="@color/navBarBlue"
+        android:dividerHeight="2dp"
+        android:layout_below="@+id/tableLayout2"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+
+</RelativeLayout>

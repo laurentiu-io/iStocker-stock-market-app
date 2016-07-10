@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    //The colors used to design the GUI
+    <item name="navBarBlue" type="color">#050c14</item>
+    <item name="appBarBlue" type="color">#02080e</item>
+    <item name="darkBlue" type="color">#04101e</item>
+    <item name="selected_blue" type="color">#041529</item>
+    <item name="row_blue" type="color">#050e18</item>
+    <item name="light_blue" type="color">#1aa3e1</item>
+    <item name="grey" type="color">#757575</item>
+    <item name="red" type="color">#ff3b30</item>
+    <item name="green" type="color">#52ff30</item>
+    <item name="white" type="color">#ffffff</item>
+    <item name="line_blue" type="color">#061a33</item>
+    <item name="light_yellow" type="color">#FFFFB745</item>
+    <item name="dark_red" type="color">#cf180e</item>
+    <item name="dark_green" type="color">#189300</item>
+
+</resources>

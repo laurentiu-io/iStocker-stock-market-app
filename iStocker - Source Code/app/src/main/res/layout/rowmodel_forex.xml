@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_forex"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="@color/row_blue"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="13dp"
+        android:text="Gold Futures"
+        android:id="@+id/forex_title"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="5dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_below="@+id/forex_title"
+        android:id="@+id/dateImageView"
+        android:layout_marginLeft="18dp"
+        android:padding="10dp"
+        android:contentDescription="@string/date_image_view"
+        android:background="@drawable/dateimage"
+        android:layout_marginTop="6dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forex_title"
+        android:layout_toRightOf="@+id/dateImageView"
+        android:text="7/12"
+        android:id="@+id/forexDateTitleView"
+        android:textSize="14sp"
+        android:textColor="#787878"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forex_title"
+        android:layout_toRightOf="@+id/forexDateTitleView"
+        android:text="| COMEX"
+        android:id="@+id/exchangeTitleView"
+        android:textSize="14sp"
+        android:textColor="#787878"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/arrowView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/indicesarrow"
+        android:layout_marginRight="20dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:id="@+id/lineView"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/arrowView"
+        android:background="@drawable/line"
+        android:layout_marginRight="20dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1,236.90"
+        android:id="@+id/forexPriceView"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/forex_title"
+        android:layout_toStartOf="@+id/lineView"
+        android:layout_marginRight="15dp"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-11.40(0.91%)"
+        android:id="@+id/forexDropPrice"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        android:layout_alignTop="@+id/exchangeTitleView"
+        android:layout_alignEnd="@+id/forexPriceView"
+        android:textStyle="bold"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+</RelativeLayout>

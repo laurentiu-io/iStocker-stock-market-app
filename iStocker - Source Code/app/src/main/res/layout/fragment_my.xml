@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navBarBlue"
+    android:orientation="vertical"
+    tools:context="uk.co.novoapps.istocker.NewsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/headline_news"
+        android:id="@+id/position"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="5dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+</LinearLayout>

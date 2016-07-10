@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">iStocker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Main Menu strings
+    <string name="login">Login/Register</string>
+    <string name="news">News</string>
+    <string name="markets">Markets</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="resources">Resources</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="rate_app">Rate App</string>
+    <string name="Fragment">textView2</string>
+
+    //Other strings
+    <string name="title_activity_activity_using_tab_library">ActivityUsingTabLibrary</string>
+    <string name="date_news">Date</string>
+    <string name="headline_news">Name</string>
+    <string name="news_image_description">NewsImage</string>
+    <string name="resources_image_description">ResourcesImage</string>
+    <string name="date_image_view">DateImage</string>
+    <string name="news_item_image">newsImage</string>
+    <string name="markets_graph">markets_graph</string>
+
+    <string-array name="tabs">
+        <item>Stocks</item>
+        <item>Forex</item>
+        <item>Commodities</item>
+    </string-array>
+
+    <string-array name="tabs_resources">
+        <item>Books</item>
+        <item>Documentaries</item>
+        <item>Websites</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="loginTitle">Login to</string>
+    <string name="loginAppTitle">iStocker</string>
+    <string name="loginLogo">loginLogo</string>
+    <string name="loginEmail">Email</string>
+    <string name="loginPassword">Password</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.co.novoapps.istocker.LoginRegisterFragment"
+    android:id="@+id/fragment_login_register">
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="Log in"
+        android:id="@+id/loginButton"
+        android:textAllCaps="false"
+        android:textColor="@color/light_blue"
+        android:background="@drawable/login_button"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:textSize="16sp"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/signupButton"
+        android:layout_alignStart="@+id/signupButton" />
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:text="Sign up"
+        android:id="@+id/signupButton"
+        android:textAllCaps="false"
+        android:textColor="@color/selected_blue"
+        android:background="@drawable/signup_button"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_resources"
+    android:orientation="horizontal"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:background="@color/row_blue"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageResource"
+        android:layout_marginLeft="15dp"
+        android:contentDescription="@string/resources_image_description"
+        android:layout_marginTop="12dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="The Intelligent Investor"
+        android:id="@+id/resourceHeadline"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/imageResource"
+        android:layout_marginRight="10dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="amazon.com"
+        android:id="@+id/description"
+        android:textColor="#9c9b9b"
+        android:layout_toRightOf="@id/imageResource"
+        android:layout_below="@id/resourceHeadline"
+        android:textSize="12sp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_alignBottom="@+id/imageResource"
+        android:layout_alignEnd="@+id/resourceHeadline" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:text="Get Now"
+        android:id="@+id/resource_button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ff9c00"
+        android:textColor="@color/darkBlue"
+        android:textAllCaps="false"
+        android:layout_marginRight="15dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>

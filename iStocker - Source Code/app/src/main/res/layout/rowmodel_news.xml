@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_news"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@color/row_blue"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="15dp"
+        android:contentDescription="@string/news_image_description"
+        android:layout_marginTop="16dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:text="Title"
+        android:id="@+id/textView"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginRight="5dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/date_news"
+        android:id="@+id/date"
+        android:textColor="#9c9b9b"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_below="@id/textView"
+        android:textSize="13sp"
+        android:layout_marginLeft="18dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/login"
+        android:title="@string/login"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/news"
+        android:title="@string/news"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/markets"
+        android:title="@string/markets"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/portfolio"
+        android:title="@string/portfolio"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/resources"
+        android:title="@string/resources"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/invite_friends"
+        android:title="@string/invite_friends"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/rate_app"
+        android:title="@string/rate_app"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+
+</menu>
